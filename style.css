@@ -1,0 +1,37 @@
+body {
+    font-family: sans-serif;       /* Простой шрифт */
+    background: #f4f4f4;           /* Светло-серый фон */
+    padding: 20px;                 /* Отступы по краям */
+  }
+  
+  #todo-container {
+    max-width: 400px;              /* Ширина блока */
+    margin: auto;                  /* Центрирование по центру */
+    background: white;             /* Белый фон */
+    padding: 20px;                 /* Внутренние отступы */
+    border-radius: 8px;            /* Скруглённые края */
+  }
+  
+  input {
+    width: 80%;                    /* Ширина поля ввода */
+    padding: 8px;                  /* Отступ внутри */
+  }
+  
+  button {
+    padding: 8px 12px;             /* Размер кнопки */
+  }
+  
+  ul {
+    list-style: none;              /* Убираем точки у списка */
+    padding: 0;
+  }
+  
+  li {
+    display: flex;                 /* Горизонтально: текст + кнопка */
+    justify-content: space-between;
+    margin: 8px 0;
+    background: #e0e0e0;
+    padding: 8px;
+    border-radius: 4px;
+  }
+  
